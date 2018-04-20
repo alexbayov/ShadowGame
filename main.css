@@ -5,7 +5,14 @@
 
 
 body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("images/bg.jpg") no-repeat center center fixed;
+    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 
 
@@ -15,12 +22,11 @@ h1, h2, h3, h4 ,h5, table, tb {
 }
 
 .container {
-    width: 100%;
-    min-height: 770px;
-    background: red;
-    background: url("images/bg.jpg") 50% 50%;
-    background-size: 100%;
-    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*overflow: hidden;*/
 }
 
 .player {
@@ -36,12 +42,11 @@ h1, h2, h3, h4 ,h5, table, tb {
 }
 
 .pers {
-    position: relative;
+    margin: 0 auto;
     background: url("images/pers.png") no-repeat 50% 50%;
     width: 350px;
     height: 450px;
     background-size: 100%;
-    left: 25%;
 }
 
 .reverse {
@@ -50,8 +55,8 @@ h1, h2, h3, h4 ,h5, table, tb {
 
 .battle-pers {
     background-size: 50%;
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 10em;
 }
 
 .nickname {
@@ -76,8 +81,8 @@ h1, h2, h3, h4 ,h5, table, tb {
 
 .battle-window {
     width: 90%;
-    height: 35em;
-    margin: 40px auto;
+    height: 30em;
+    margin: 10px auto;
 }
 
 .left-player {
@@ -98,11 +103,9 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-
     border-radius: 9px;
 }
 progress::-webkit-progress-value {
-
     background-color: #e26868;
     border-radius: 5px;
 }
@@ -120,6 +123,11 @@ progress::-webkit-progress-value {
     width: 200px;
 }
 
+.button-duel-begin {
+    margin: 0 auto;
+    width: 150px;
+}
+
 .duel {
     color: white;
     font-size: 30px;
@@ -130,6 +138,20 @@ progress::-webkit-progress-value {
     border-radius: 20px;
     box-shadow: 5px 5px 15px 3px black;
 }
+
+.duel-begin {
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'Metal Mania', cursive;
+    background: grey;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 15px 3px black;
+    border-radius: 50%;
+}
+
+
 
 button:active, button:focus {
     outline: none;
