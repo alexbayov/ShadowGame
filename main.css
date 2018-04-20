@@ -151,8 +151,6 @@ progress::-webkit-progress-value {
     border-radius: 50%;
 }
 
-
-
 button:active, button:focus {
     outline: none;
 }
@@ -163,6 +161,10 @@ button:hover {
     transform: rotate(5deg);
 }
 
+.duel-right button:hover {
+
+    transform: rotate(-5deg);
+}
 
 table {
     font-size: 45px;
@@ -170,17 +172,10 @@ table {
     margin: 1em auto;
 }
 
-tr {
-
-
-}
-
-
 td {
     padding: 20px;
     border-collapse: collapse;
 }
-
 
 .logo {
     margin-top: 6em;
@@ -219,20 +214,17 @@ td {
     text-indent: 0px;
 }
 
-
 .reg-form {
     width: 416px;
     margin: 0 auto;
 }
 
 .form-row textarea {
-    text-align: left;
     height: 90px;
     line-height: 16px;
     font-size: 12px;
     padding: 0px 5px;
     width: 404px;
-    /*border: 1px solid #ABADB3;*/
 }
 
 .form-submit input[type=submit] {
