@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=0.85; maximum-scale=0.85; user-scalable=0;" />
-
-    <title>battle page</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="header">
-        <div class="title text-center"></div>
+        <div class="title text-center">
+            <a href="page reg" class="exit reverse"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <h2>Ваш личный кабинет</h2>
+        </div>
     </div>
     <div class="section">
         <div class="left-box">
@@ -19,36 +22,37 @@
                 <h2>SoulOfRaccoon</h2>
             </div>
             <div class="player"></div>
-            <div class="stats text-center">
-                <table>
-                    <tr>
-                        <td>урон: </td>
-                        <td>10</td>
-                    </tr>
-                </table>
-                <progress value="10" max="100"></progress>
-            </div>
+
         </div>
         <div class="right-box">
-            <div class="nickname text-center">
-                <h2>SoulOfRaccoon</h2>
-            </div>
-            <div class="player"></div>
-            <div class="stats text-center">
+            <div class="stats">
                 <table>
                     <tr>
-                        <td>урон: </td>
+                        <td>ваш урон: </td>
                         <td>10</td>
                     </tr>
+                    <tr>
+                        <td>ваше здоровье: </td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>очков рейтинга: </td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>позиция в рейтинге: </td>
+                        <td>1</td>
+                    </tr>
                 </table>
-                <progress class="reverse" value="10" max="100"></progress>
             </div>
         </div>
     </div>
     <div class="bottom-box-first">
         <div class="battle">
             <div class="button text-center">
-                <button class="btn">АТАКА</button>
+                <form action="">
+                    <button class="btn">ДУЭЛЬ</button>
+                </form>
             </div>
         </div>
     </div>
