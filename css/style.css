@@ -208,6 +208,11 @@ progress::-webkit-progress-value {
     margin-top: 20vh;
 }
 
+.return {
+    font-size: 5vw;
+    transform: scale(-1);
+}
+
 .footer {
     position: absolute;
     left: 0;
